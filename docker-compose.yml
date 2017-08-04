@@ -20,7 +20,7 @@ services:
       io.rancher.container.pull_image: always
       io.rancher.container.start_once: true
   fluentd:
-    image: husseingalal/fluentd-influxdb:dev
+    image: husseingalal/fluentd-influxdb:0.1.1
     ports:
     - 127.0.0.1:24224:24224/tcp
     labels:
